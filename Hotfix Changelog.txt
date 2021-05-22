@@ -1,0 +1,13 @@
+Beat Aliens Hotfix Changelog
+------------------------------
+EnemySpawner.cs
+added '=' to '>=' [line 83]
+
+BossController.cs:
+tweaked WaitForSeconds in BossStart from 2f to 3f as boss did not fully enter screen [line 98]
+
+GameController.cs
+forgot to set gameWinUI.SetActive (false) [line 118]
+
+PlayerController.cs
+fixed multiplier not resetting when player is hit by bullet [line 87]
